@@ -30,8 +30,8 @@ $(document).ready(function() {
     dancer.$node.addClass(dancerMakerFunctionName);
     $('body').append(dancer.$node);
 
-    $('.BlinkDancer').attr('src', '');
-    $('.HappyDancer').attr('src', '');
+    $('.BlinkyDancer').attr('src', 'image/bomb1.png');
+    $('.HappyDancer').attr('src', 'image/mario.png');
     $('.SadDancer').attr('src', '');
   });
 });
