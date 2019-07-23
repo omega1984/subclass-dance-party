@@ -2,6 +2,9 @@ body, html{
   height:100%;
 }
 body{
+  background-image: url(image/background.jpg);
+  background-size: cover;
+  background-position: center;
   margin: 0px;
   background-color:rgb(211, 219, 230);
   font-size: 18px;
