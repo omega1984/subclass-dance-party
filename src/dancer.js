@@ -1,7 +1,7 @@
 var Dancer = function (top, left, timeBetweenSteps) {
   this.timeBetweenSteps = timeBetweenSteps;
   // this is the blinking node that is planted in html
-  this.$node = $('<span class="dancer"></span>');
+  this.$node = $('<img class="dancer">');
   this.step();
   this.setPosition(top, left);
 }
