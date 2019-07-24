@@ -33,5 +33,12 @@ $(document).ready(function() {
     $('.BlinkyDancer').attr('src', 'image/bomb1.png');
     $('.HappyDancer').attr('src', 'image/mario.png');
     $('.SadDancer').attr('src', 'image/images.jpeg');
+
+    window.dancers.push(dancer.$node);
+
+    $('.lineUp').on('click', function(){
+      dancer.lineUp();
+    });
+
   });
 });
