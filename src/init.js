@@ -34,7 +34,7 @@ $(document).ready(function() {
     $('.HappyDancer').attr('src', 'image/mario.png');
     $('.SadDancer').attr('src', 'image/images.jpeg');
 
-    window.dancers.push(dancer.$node);
+    // window.dancers.push(dancer.$node);
 
     $('.lineUp').on('click', function(){
       dancer.lineUp();
